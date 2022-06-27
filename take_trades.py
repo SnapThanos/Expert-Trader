@@ -1,5 +1,3 @@
-import hello
-
 class TakeTrades:
 
     def __init__(self, data, name):
@@ -13,4 +11,3 @@ class TakeTrades:
 
     def whatsIn(self):
         print(self.data)
-        print(hello.say_hello(self.name))
